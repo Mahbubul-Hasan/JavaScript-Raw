@@ -1,0 +1,33 @@
+.my-div{
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+}
+.one-class{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgb(220, 220, 220);
+    /*border: 1px solid red;*/
+}
+.two-class{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgb(18, 118, 250);
+    /*border: 1px solid red;*/
+}
+.three-class{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgb(108, 116, 124);
+    /*border: 1px solid red;*/
+}
+.four-class{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgb(34, 168, 78);
+    /*border: 1px solid red;*/
+}

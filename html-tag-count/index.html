@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>Paragraph One</p>
+    <p>Paragraph Two</p>
+    <p>Paragraph Three</p>
+    <p>Paragraph Four</p>
+    <p>Paragraph Five</p>
+
+    <a>Link One</a>
+    <a>Link Two</a>
+    <a>Link Three</a>
+
+    <script>
+        document.write("<h2>Script's area</h2>");
+        var paragraphTag = document.getElementsByTagName('p');
+//        for(var key in paragraphTag){
+//            document.write('<br/>' + paragraphTag[key].innerHTML);
+//        }
+        for (var i=0; i<paragraphTag.length; i++){
+            document.write('<br/>' + paragraphTag[i].innerHTML);
+        }
+    </script>
+</body>
+</html>

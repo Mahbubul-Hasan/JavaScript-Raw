@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>refresh Auto</title>
+</head>
+
+<body>
+
+  <script>
+    // Wait for DOM to load
+    document.addEventListener('DOMContentLoaded', function (event) {
+
+      // Do the automatic refresh
+      window.setTimeout(function () {
+        document.location.reload(true);
+      }, 200);
+
+      // Test the refresh by outputting the time in milliseconds
+      document.getElementById('timestamp').innerText = new Date().getTime();
+
+    });
+  </script>
+
+  <p><span id="timestamp"></span> milliseconds since midnight, January 1, 1970.</p>
+</body>
+
+</html>

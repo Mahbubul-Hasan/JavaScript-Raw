@@ -1,0 +1,3 @@
+confirmFunction = function() {
+  confirm("Hay !!!");
+}

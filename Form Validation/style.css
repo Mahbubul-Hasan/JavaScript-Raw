@@ -1,0 +1,38 @@
+*{
+  padding:0px;
+  margin: 0px;
+}
+
+div{
+  height: auto;
+  width: 30%;
+  padding: 20px;
+  margin-left: 30%;
+  border: 1px solid black;
+}
+.text, .innerText{
+  font-size: 20px;
+}
+.textBox{
+  height: 20px;
+  width: 250px;
+  padding: 3px;
+}
+.textBox, .selectBox, .textAreaBox, .textCheckBox, .submit, .innerText{
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.selectBox{
+  padding: 6px;
+}
+.textAreaBox{
+  width: 400px;
+}
+.submit{
+  width: 80px;
+  text-align: center;
+  padding: 5px;
+}
+.innerText {
+  color: red;
+}
